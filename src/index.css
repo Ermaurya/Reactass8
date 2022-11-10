@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_body{
+  border: 2px solid black;
+  height:100vh;
+  width: 100vw;
+  text-align: center;
+
+}
+.main_border{
+  height: 340px;
+  width: 430px;
+  box-shadow: 2px 4px 5px 5px gray;
+  margin: auto;
+  margin-top: 100px;
+}
+.contant{
+/* border: 2px solid red; */
+height: 340px;
+width: 400px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+margin: auto;
+flex-direction: column;
+}
+.contant h1{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  color:#138496;
+  font-size: 25px;
+  filter: blur(.8px);
+}
+.password_show{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 30px;
+}
+.copy_button{
+  width: 40px;
+  height: 30px;
+  margin-left: 1px;
+  background-color: green;
+  filter: blur(.8px);
+  /* border: 2px solid green; */
+  box-shadow: 1px 1px 1px 1px rgb(156, 156, 156);
+  cursor: pointer;
+}
+
+.password_show input{
+  width: 99%;
+  
+  padding-left: 10px;
+  /* margin-left:3px; */
+  height: 30px;
+  background-color: rgb(235, 230, 230);
+
+}
+.select{
+  width: 100%;
+  /* border: 2px solid blue; */
+display:flex;
+justify-content:space-between;
+
+}
+.select select{
+  border: none;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 3px 2px gray;
+}
+.select h3{
+  filter: blur(.8px);
+}
+.checkbox{
+  width: 100%;
+  /* border: 2px solid green; */
+  display: inline-block;
+  text-align: left;
+  filter: blur(.6px);
+  
+}
+.btn{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  background-color: #138496; 
+  box-shadow: 2px 4px 4px  rgb(133, 129, 129);
+  cursor: pointer;
+  color:#ffffff;
+  margin-top: 10px;
+}
+button{
+  width: 100%;
+  height: 10%;
+  border: none;
+  filter: blur(.6px);
+}
+[type='checkbox']{
+ height:17px;
+ width:17px;
+ margin-top: 10px;
+}
+label{
+  margin: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
